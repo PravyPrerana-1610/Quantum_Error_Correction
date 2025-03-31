@@ -10,13 +10,18 @@ Here, $c_i$ represent the amplitudes of $|i \rangle$ 's and modulo square of the
 1. Bit flip gate   
 $X$ flips the qubit from $\lvert 0 \rangle \rightarrow \lvert 1 \rangle$ and $\lvert 1 \rangle \rightarrow \lvert 0 \rangle$.       
 If there is a superposition of more than one qubits as below then it permutes amplitudes.           
-$\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{X_0}  \alpha \lvert 001 \rangle + \beta \lvert 110 \rangle$        
-$\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{X_2}  \alpha \lvert 100 \rangle + \beta \lvert 011 \rangle$        
+$\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{X_0}  \alpha \lvert 001 \rangle + \beta \lvert 110 \rangle$     
+
+$\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{X_2}  \alpha \lvert 100 \rangle + \beta \lvert 011 \rangle$    
+
 $\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{X_2}  \alpha \lvert 100 \rangle + \beta \lvert 011 \rangle$
+
 2. Phase flip gate 
 This leaves $\lvert 0 \rangle$ unchanged but it changes the sign of $\lvert 1 \rangle$.         
 $\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{Z_2}  \alpha \lvert 000 \rangle - \beta \lvert 111 \rangle $        
+
 $\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{Z_1}  \alpha \lvert 000 \rangle - \beta \lvert 111 \rangle $        
+
 $\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{Z_0}  \alpha \lvert 000 \rangle - \beta \lvert 111 \rangle $
 
 
