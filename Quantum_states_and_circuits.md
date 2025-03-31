@@ -23,6 +23,6 @@ $\alpha \lvert 000 \rangle + \beta \lvert 111 \rangle  \xrightarrow{Z_0}  \alpha
 Quantum circuits provide away to represent these gates and states as input. It has one line for each qubit. And gates are applied to the state from left to right.
 
 <figure>
-  <img src="/Users/pravyprerana/Desktop/PHD codes/Quantum_Error_Correction/2BEB5B03-4087-4200-9BB0-1CDF961ABF50.jpeg" width="400">
+  <img src="2BEB5B03-4087-4200-9BB0-1CDF961ABF50.jpeg" width="400">
   <figcaption> This circuit shows the initial state and the gates act upon them from bottom to top. </figcaption>
 </figure>
