@@ -32,10 +32,12 @@ Examples of some more Gates are as follows:-
 
 1. Hadamard gate - probably the most common gate used in quantum operations and in describing quantum walks.
 <figure>
-  <img src="EA0FE68A-E946-4D3B-9303-639A98A4F41F.jpeg" width="100">
+  <img src="EA0FE68A-E946-4D3B-9303-639A98A4F41F.jpeg" width="150">
   <figcaption> </figcaption>
 </figure>
 
 It acts on $|0\rangle$ and results in $|+ \rangle$ which is an eigen-state of  $X$ gate. Same for $|1\rangle$ where it results in $|- \rangle$.
 
 2. Controlled NOT gate-
+
+
